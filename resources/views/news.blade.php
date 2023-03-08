@@ -1,11 +1,10 @@
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+@extends('layouts.app')
+
+@section('content')
 <br><br>
     <section id="skills" class="skills">
-      <div class="container" data-aos="fade-up">
-          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/skills.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+      <div class="container">
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Berita Apaan tuh</h3>
             <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -47,3 +46,4 @@
         </div>
       </div>
     </section>
+@endsection

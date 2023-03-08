@@ -32,7 +32,7 @@ Route::prefix('/product')->group(callback: function () {
     Route::get('/list', [ProductController::class, 'product']);
 });
 
-Route::get('/news/{page}', [NewsController::class, 'index']);
+Route::get('/news/{page?}', [NewsController::class, 'news']);
 
 Route::prefix('/program')->group(function () {
     Route::get('/list', [ProgramController::class, 'index']);

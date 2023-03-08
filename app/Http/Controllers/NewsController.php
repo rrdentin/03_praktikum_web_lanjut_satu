@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class NewsController extends Controller
 {
-    public function index()
+    public function news($page=0)
     {
-        return view('news');
+        return view('news', ['page'=>$page]);
     }
 
 }

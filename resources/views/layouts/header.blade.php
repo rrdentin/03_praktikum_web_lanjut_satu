@@ -17,6 +17,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
 
+
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
@@ -31,10 +32,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="http://127.0.0.1:8000/home">Home</a></li>
+          <li><a class="nav-link scrolltos" href="http://127.0.0.1:8000/home">Home</a></li>
           <li><a class="nav-link scrollto" href="http://127.0.0.1:8000/about-us">About Us</a></li>
-          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000/product/">Product</a></li>
-          <li><a class="nav-link   scrollto" href="http://127.0.0.1:8000/program/">Program</a></li>
+          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000/product/list">Product</a></li>
+          <li><a class="nav-link   scrollto" href="http://127.0.0.1:8000/program/list">Program</a></li>
           <li><a class="nav-link scrollto" href="http://127.0.0.1:8000/contact-us">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

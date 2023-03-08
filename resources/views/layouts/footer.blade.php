@@ -1,8 +1,5 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-
-
     <div class="container footer-bottom fixed-bottom"  style="background-color:black">
       <div class="copyright" >
         &copy; Copyright <strong><span>Dainty</span></strong>. All Rights Reserved

@@ -1,4 +1,6 @@
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+@extends('layouts.app')
+
+@section('content')
 <br>
 <br>   
     <section id="services" class="services section-bg">
@@ -45,3 +47,4 @@
       </div>
     </section>
 </body>
+@endsection
